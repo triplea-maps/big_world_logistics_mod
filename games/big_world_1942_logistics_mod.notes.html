@@ -1,0 +1,143 @@
+<html>
+						<body bgcolor="#ffffff">
+						<table border="1" cellpadding="10">
+							<tr>
+								<td>
+								<center><img src="title_image.jpg"/></center><br>
+								<i>An experimental mod of the Big World: 1942 game by humbabba, humbabba@gmail.com. With many thanks to the original game and art designers.</i><br><br>
+								A few mods to give some flavor of the enormous logistical challenges involved in waging a world war. Units are identical to those in the original game, except for the changes/additions noted below, mostly related to moving troops/materiel.<br><br>
+								The major change is a supply-line system, explained below, which is designed to force enemy movements - or cut them off completely and destroy them.<br><br>
+								<b><font size="+1">Unit changes/additions</font></b><br>
+								<table border="0" cellpadding="5">
+									<tr>
+										<td>							
+										<b>Unit</b>
+										</td>
+										<td>							
+										<b>Notes</b>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">							
+										<hr>
+										</td>
+									</tr>
+									<tr>
+										<td>							
+										<img src="armour.png"/><br>Armour
+										</td>
+										<td>							
+										Defends at 2 instead of 3.
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">							
+										<hr>
+										</td>
+									</tr>
+									<tr>
+										<td>							
+										<img src="aaGun.png"/><br>AA gun
+										</td>
+										<td>							
+										Can be transported by sea - transport cost is 3, same as armour.
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">							
+										<hr>
+										</td>
+									</tr>
+									<tr>
+										<td>							
+										<img src="halftrack.png"/><br>Halftrack
+										</td>
+										<td>							
+										Land transport. Can carry 1 infantry or 1 artillery up to 2 spaces. Attacks at 0, defends at 1. Can be transported by sea - transport cost is 3.
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">							
+										<hr>
+										</td>
+									</tr>
+									<tr>
+										<td>							
+										<img src="submarine.png"/><br>Submarine
+										</td>
+										<td>							
+										May submerge before battle. Can move through enemy units (and does not prevent enemy movement). Effects are nullified by presence of an enemy destroyer.
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">							
+										<hr>
+										</td>
+									</tr>
+									<tr>
+										<td>							
+										<img src="transport.png"/><br>Transport
+										</td>
+										<td>							
+										Cannot attack or defend. Has no effect on enemy movement. Automatically destroyed in battle if unescorted by combat units.
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">							
+										<hr>
+										</td>
+									</tr>
+									<tr>
+										<td>							
+										<img src="paratrooper.png"/><br>Paratrooper
+										</td>
+										<td>							
+										Identical to infantry in all respects except cost (4 PU); can be transported by air transport.
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">							
+										<hr>
+										</td>
+									</tr>
+									<tr>
+										<td>							
+										<img src="airTransport.png"/><br>Air transport
+										</td>
+										<td>							
+										Used for carrying paratroopers into battle. Can transport 1 or 2 paratroopers into enemy territory - no other moves are legal with paratroopers aboard, though may move freely when empty. Must stop at first enemy territory in its path. 
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">							
+										<hr>
+										</td>
+									</tr>
+								</table><br>
+								Additionally, to shake up operations in the Mediterranean, the island of Crete has been added:<br>
+								<center><img src="crete.png"/></center><br><br>
+								<b><font size="+1">Supply lines</a></b><br>
+								Troops need to be in supply to function. Troops are considered in supply if they are no more than 10 friendly territories (land or sea) from an owned factory. Any units out of range or cut off receive a warning at the beginning of the player's turn, and if supply is not reestablished, the units are removed from play following noncombat movement.<br>
+									<ul>
+										<li>Friendly land territories are those owned by a country or its ally
+										<li>Friendly sea territories are those with no enemy units in them
+										<li>Supply lines are checked twice each turn, at the beginning and after noncombat movement
+									</ul>
+								Twice per turn, supplies radiate out from owned factories, one friendly territory at a time, for up to 10 territories or until they run into enemy territory. (This process is complex and takes about 30 seconds to complete.) This is represented as a flag symbol in each in-supply territory during the supply-line check.<br><br>
+								In this example, Germany has advanced into Northern Russia during its turn. The post-noncombat supply line check shows the territory to be in supply with the German flag symbol in Northern Russia:<br>
+								<center><img src="supply_lines01.png"/></center><br>
+								On subsequent turns, the British take Novgorod and the Russians take Western Russia. Germany's next supply-line check, at the beginning of its next turn, shows Northern Russia unsupplied:<br>
+								<center><img src="supply_lines02.png"/></center><br>
+								Additionally, a pop-up message warns the player that these troops will be removed from play after noncombat if supply lines are not reestablished:<br>
+								<center><img src="supply_lines03.png"/></center><br>
+								To reestablish supply for units in Northern Russia, Germany must either retake Novgorod or Western Russia, or take an adjacent Russian factory and so establish a new German supply line.<br><br>
+								<b><font size="+1">Supply lines and canals</a></b><br>
+									<ul>
+										<li>Supplies do not enter the Black Sea unless the player owns Western Turkey
+										<li>Supplies do not cross the Panama or Suez canals, but must go over friendly land territories
+									</ul>
+								</td>
+							</tr>
+						</table>
+						</body>
+						</html>

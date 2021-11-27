@@ -1,0 +1,7 @@
+map_name: big_world_logistics_mod
+games:
+- game_name: 'Big World: 1942 - Logistics Mod'
+  file_name: big_world_1942_logistics_mod.xml
+- game_name: 'Big World: 1942 - Logistics Mod (No Supply Lines)'
+  file_name: big_world_1942_logistics_mod_no_supplies.xml
+version: 0
